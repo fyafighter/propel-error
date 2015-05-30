@@ -1,0 +1,9 @@
+<!-- Modal not visible initially - needs "modal-show" class added to see -->
+<div class="modal" ng-class="{'modal-show': show}" id="demo-modal">
+  <div class="modal-content">
+    <h2>{{title}}</h2>
+    <p>{{message}}</p>
+    <button class="modal-close" ng-click="close()">{{ 'error.common.close' | translate }}</button>
+  </div>
+</div>
+<div class="modal-overlay" ng-click="close()"></div><!-- the overlay element -->

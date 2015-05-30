@@ -1,0 +1,10 @@
+<div class="text-center">
+  <!-- Add some spacing because IE sucks and doesn't handle flexbox correctly -->
+  <br>
+  <div class="row">
+    <h2>{{ 'error.accessDenied.title' | translate }}</h2>
+    <h4 class="subheader">{{'error.accessDenied.message' | translate }}</h4>
+    <br>
+    <a ng-href="{{vm.endpoint.url.ui || '/'}}" class="button" target="_self">{{ 'error.common.returnHome' | translate }}</a>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "propel-error",
+  "version": "0.0.2",
+  "keywords": [
+    "jumpstart-configurable"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-protractor": "^0.0.11",
+    "protractor": "^1.2.0",
+    "jumpstart-angular-test": "git+ssh://git@ftct0033g.fc.usa.hp.com:7999/jump/jumpstart-angular-test.git#v0.1.3",
+    "gulp-mocha": "^1.0.0",
+    "gulp": "^3.8.7",
+    "mocha": "^1.21.4",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "error": {
+    "unknown": {
+      "title": "Unexpected Error",
+      "message": "An unexpected error occurred. Please contact your administrator."
+    },
+    "404": {
+      "title": "Oops! It looks like you took a wrong turn...",
+      "message": "We're sorry. The page you are looking for is not available."
+    },
+    "accessDenied": {
+      "title": "Access Denied",
+      "message": "There was a problem authorizing you."
+    },
+    "serviceUnavailable": {
+      "title": "Service Unavailable",
+      "message": "There was an error connecting to the service. Please try again later."
+    },
+    "common": {
+      "close": "Close",
+      "returnHome": "Return to Home"
+    },
+    "dashboard.config": {
+      "title": "Dashboard Error",
+      "message": "The dashboard is improperly configured. Please contact your administrator."
+    }
+  },
+  "validation": {
+    "invalidDateFormat": "Invalid date format",
+    "startDateRequired": "Start date is required",
+    "startDateInPast": "Start date cannot be in the past",
+    "startDateBeforeEnd": "Start date should be before the end date",
+    "endDateRequired": "End date is required",
+    "endDateInPast": "End date cannot be in the past",
+    "endDateAfterStart": "End date should be after the start date",
+    "endDateInsideAllowablePeriod": "End date should be within the allowable time period {{period}}",
+    "minDate": "Date should be on or after {{min}}.",
+    "maxDate": "Date should be on or before {{max}}.",
+    "invalidTimeFormat": "Invalid time format",
+    "minTime": "Time should be at or after {{min}}.",
+    "maxTime": "Time should be at or before {{max}}.",
+    "requiredField": "This field is required.",
+    "integerField": "This field must be an integer.",
+    "minField": "Must be greater than or equal to {{min}}.",
+    "maxField": "Must be less than or equal to {{max}}.",
+    "minLengthField": "Must be longer than or equal to {{min}} characters.",
+    "maxLengthField": "Must be shorter than or equal to {{max}} characters.",
+    "patternField": "Must conform to the pattern.",
+    "email": "Invalid email format.",
+    "url": "Invalid URL format.",
+    "nonNumeric": "This field must be non-numeric."
+  }
+}
